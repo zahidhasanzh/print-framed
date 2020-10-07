@@ -1,0 +1,137 @@
+/*
+Template Name: Print Framed
+Version: 1.0
+*/
+
+/* ======= base css ======= */
+@font-face {
+    font-family: 'Dunbar Tall Extra';
+    src:  url('../font/DunbarTall-ExtraBold.woff2') format('woff2'),
+          url('../font/DunbarTall-ExtraBold.woff') format('woff'),
+          url('../font/DunbarTall-ExtraBold.ttf') format('ttf'),
+          url('../font/DunbarTall-ExtraBold.eot') format('eot');
+}
+@font-face {
+    font-family: 'DunbarLow';
+    src:  url('../font/DunbarLow.woff2') format('woff2'),
+          url('../font/DunbarLow.woff') format('woff'),
+          url('../font/DunbarLow.ttf') format('ttf'),
+          url('../font/DunbarLow.eot') format('eot');
+}
+@font-face {
+    font-family: 'DunbarTall Book';
+    src:  url('../font/DunbarTallBook.woff2') format('woff2'),
+          url('../font/DunbarTallBook.woff') format('woff'),
+          url('../font/DunbarTallBook.ttf') format('ttf'),
+          url('../font/DunbarTallBook.eot') format('eot');
+}
+@font-face {
+    font-family: 'DunbarTall Light';
+    src:  url('../font/DunbarTallBook.woff2') format('woff2'),
+          url('../font/DunbarTallBook.woff') format('woff'),
+          url('../font/DunbarTallBook.ttf') format('ttf'),
+          url('../font/DunbarTallBook.eot') format('eot');
+}
+@font-face {
+    font-family: 'DunbarTall Ultra';
+    src:  url('../font/DunbarTallUltra.woff2') format('woff2'),
+          url('../font/DunbarTallUltra.woff') format('woff'),
+          url('../font/DunbarTallUltra.ttf') format('ttf'),
+          url('../font/DunbarTallUltra.eot') format('eot');
+}
+/* =========
+font-family uses
+============
+font-family: "Dunbar Tall Extra";
+font-family: "DunbarLow";
+font-family: "DunbarTall Book";
+font-family: "DunbarTall Light";
+font-family: "DunbarTall Ultra";
+======== */
+*{
+    margin: 0;
+    padding: 0;
+}
+a:focus, input:focus, textarea:focus, button:focus{
+    outline: 0 solid;
+}
+a:hover{
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin:0 0 15px;
+    font-weight:normal;
+    font-style: normal;
+    font-weight: 600;
+}
+p{
+    font-family: "DunbarTall Light";
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.pos_relative{
+    position: relative;
+}
+.fix{
+    overflow: hidden;
+}
+body{
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'DunbarTall Book';
+}
+.img{
+    max-width: 100%;
+}
+.framing_btn {
+    display: inline-block;
+    font-size: 14px;
+    background-color: #e59280;
+    color: #fff;
+    padding: 13px 22px;
+    border-radius: 2px;
+    letter-spacing: 8px;
+    transition: background .5s;
+}
+.framing_btn:hover {
+    background: #563434;
+    color: #fff;
+}
+/* ~~~~~~~~~~~~~~~~~~~~ premium style ~~~~~~~~~~~~~~~~~~~~~ */
+.premium_img img {
+    margin-left: -240px;
+    max-width: 700px;
+}
+.section_titel h2 {
+    border-top: 8px solid #e59280;
+    font-family: "DunbarTall Ultra";
+    color: #e59280;
+    font-size: 42px;
+    line-height: 58px;
+    margin: 15px 0;
+    letter-spacing: 8px;
+    margin-bottom: 25px;
+    margin-top: 0;
+    padding-top: 10px;
+}
+.section_titel h2 span{
+    font-family: "DunbarTall Light";
+}
+
+.section_titel p {
+    margin-bottom: 40px;
+}
+.premium_logo {
+    max-width: 98px;
+    margin-left: 190px;
+    margin-top: -48px;
+}
+
+
+
+  
